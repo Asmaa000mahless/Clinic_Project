@@ -1,0 +1,242 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* أسود */
+    color: #fff; /* أبيض */
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Navbar Styles */
+  #navbar {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-content ul {
+    display: flex;
+  }
+  
+  .nav-content ul li {
+    margin: 0 15px;
+  }
+  
+  .logo {
+    width: 120px;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('./Assets//images/header-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+  
+  #hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  /* About Us Section */
+  #about-us {
+    background-color: #121212;
+    padding: 60px 20px;
+  }
+  
+  #about-us p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 10px;
+  }
+  
+  /* Services Section */
+  #services {
+    background-color: #1a1a1a;
+  }
+  
+  .service-card {
+    display: inline-block;
+    background: #222;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .service-card h3 {
+    margin: 15px 0 10px;
+  }
+  
+  /* Doctors Section */
+  #doctors {
+    background-color: #121212;
+  }
+  
+  .doctor-card {
+    display: inline-block;
+    background: #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .doctor-card img {
+    width: 80%;
+    height: auto;
+    border-radius: 30%;
+  }
+  
+  .doctor-card h3 {
+    margin-top: 15px;
+  }
+  
+  /* Reservation Section */
+  #reservation form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  form button {
+    width: 92%;
+  }
+  
+  /* Opinions Section */
+  #opinions {
+    background-color: #1a1a1a;
+  }
+  
+  .opinion-card {
+    display: inline-block;
+    background: #222;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .opinion-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  /* Addresses Section */
+  #addresses {
+    background-color: #121212;
+    padding: 40px 20px;
+  }
+  
+  #addresses p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Contact Section */
+  #contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact form input, #contact form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  #contact form button {
+    width: 92%;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  
